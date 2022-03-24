@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 2px;
+    border: 0.95px solid #000;
+}
+
+th {
+    text-align: left;
+}
+
+tr:first-child {
+    font-weight: bold;
+    color: #fff;
+    background-color: #666;
+}
+
+td:nth-child(odd) {
+    background-color: #7cded5;
+}
+
+td:nth-child(even) {
+    background-color: #fffd7a;
+}
+
+td:nth-child(3) {
+    text-align: center;
+}
